@@ -305,22 +305,22 @@ img.logo-img{
     transform: scale(1);
 } */
 .about .about-content .left{
-    width: 45%;
+    width: 50%;
 }
 .about .about-content .left img{
     height: 400px;
     width: 400px;
     object-fit: cover;
-    border-radius: 50%;
-    border: 5px solid #E94B3CFF;
+
 }
 .about .about-content .right{
-    width: 55%;
+    width: 50%;
 }
 .about .about-content .right .text{
-    font-size: 25px;
+    font-size: 50px;
     font-weight: 600;
     margin-bottom: 10px;
+    color: #000;
 }
 .about .about-content .right .text span{
     color: #E94B3CFF;
@@ -328,6 +328,7 @@ img.logo-img{
 .about .about-content .right p{
     text-align: justify;
     color: #000;
+    font-size: 20px;
 }
 .about .about-content .right a{
     display: inline-block;
@@ -342,7 +343,7 @@ img.logo-img{
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    color: #E94B3CFF;
+    color: #2d854b;
     background: none;
 }
 
@@ -438,9 +439,20 @@ img.logo-img{
         margin: 20px 0;
         font-size: 25px;
     }
-
     .max-width{
         max-width: 930px;
+    }
+    .home .home-content .left {
+        display: block;
+    }
+    .home .home-content .right{
+        flex: 100%;
+    }
+    .home .home-content .column{
+        width: 100%;
+    }
+    .home .home-content .right{
+        flex: 100%;
     }
     .about .about-content .column{
         width: 100%;
@@ -450,38 +462,16 @@ img.logo-img{
         justify-content: center;
         margin: 0 auto 60px;
     }
-    .home .home-content .right{
-        flex: 100%;
-    }
-    .home .home-content .column{
-        width: 100%;
-    }
-    .home .home-content .left{
-        display: flex;
-        justify-content: center;
-        margin: 0 auto 60px;
-    }
-    .home .home-content .right{
-        flex: 100%;
-    }
-    .services .serv-content .card{
-        width: calc(50% - 10px);
-        margin-bottom: 20px;
-    }
 }
 
 @media (max-width: 690px) {
     .max-width{
         padding: 0 23px;
     }
-
 }
 @media (max-width: 500px) {
     .about .about-content .right .text{
         font-size: 19px;
-    }
-    .right form .error-box{
-       width: 150px;
     }
     .scroll-up-btn{
         right: 15px;
