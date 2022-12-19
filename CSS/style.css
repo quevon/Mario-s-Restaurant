@@ -158,13 +158,20 @@ img.logo-img{
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
-    transition: color 0.3s ease;
+    padding: 10px;
+    transition: color 0.5s ease;
 }
 .navbar .menu li a:hover{
-    color: #000;
+    color: #fff;
+    background: #2d854b;
+    padding: 10px;
+    border-radius: 13px;
 }
 .navbar.sticky .menu li a:hover{
-    color: black;
+    color: #fff;
+    background: #2d854b;
+    padding: 10px;
+    border-radius: 13px;
 }
 
 /* menu btn styling */
