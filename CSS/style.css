@@ -5,12 +5,12 @@
 /* :root{
     --clr-neon: hsl(317 100% 54%);
 } */
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        text-decoration: none;
-    }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
 html{
     scroll-behavior: smooth;
     font-size: 80.5%;
@@ -95,37 +95,34 @@ button {
     cursor: pointer;
     margin: 5px;
     box-shadow: 0 0 0.5em 0 var(--clr-neon),0 0 0.5em var(--clr-neon);
-
-   }
-   button:hover{
+}
+button:hover{
     background: #E94B3CFF;
-   }
-   button a {
+}
+button a {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
     font-weight: 500;
-   }button a:hover{
+}button a:hover{
        color:#FFFFFF ;
-   }
-   button a:after {
+}
+button a:after {
     content: '»';
     position: absolute;
     opacity: 0;
     top: 0;
     right: -15px;
     transition: 0.5s;
-   }
-   
-   button:hover a {
+}
+button:hover a {
     padding-right: 15px;
-   }
-   
-   button:hover a:after {
+}
+button:hover a:after {
     opacity: 1;
     right: 0;
-   }
+}
 /* navbar styling */
 .navbar{
     position: fixed;
@@ -208,8 +205,6 @@ img.logo-img{
 .scroll-up-btn:hover{
     filter: brightness(90%);
 }
-
-
 /* home section styling */
 .home{
     display: flex;
@@ -229,10 +224,11 @@ img.logo-img{
     transform: scale(1);
 } */
 .home .home-content .left{
-    width: 45%;
+    width: 55%;
 }
 .home .home-content .left .text{
     color: #000;
+    font-weight: 500;
     font-family: 'Merriweather', sans-serif;
 }
 .home .home-content .left p{
@@ -250,7 +246,12 @@ img.logo-img{
     color: #000;
 }
 .home .home-content .right{
-    width: 55%;
+    width: 45%;
+}
+.home .home-content .right img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
 }
 .home .home-content .right .text{
     font-size: 25px;
@@ -367,7 +368,6 @@ img.logo-img{
     text-transform: capitalize;
     padding: 2rem 9%
 }
-
 .footer .share{
     display: flex;
     flex-direction: row;
@@ -375,7 +375,6 @@ img.logo-img{
     justify-content: center;
     
 }
-
 .footer .share a{
     display: flex;
     height: 3rem;
@@ -394,14 +393,12 @@ img.logo-img{
     background-color: #2d854b;
     transform: translateY(-10px);
 }
-
 .footer .c#E94B3CFFit{
     font-size: 1.5rem;
     color:#000;
     font-weight: lighter;
     padding:.5rem;
 }
-
 .footer .c#E94B3CFFit span{
     color:#E94B3CFF;
 }
