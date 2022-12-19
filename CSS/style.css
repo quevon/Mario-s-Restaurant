@@ -129,7 +129,6 @@ button:hover a:after {
     width: 100%;
     z-index: 999;
     padding: 30px 0;
-    font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
 }
 .navbar.sticky{
@@ -438,9 +437,9 @@ img.logo-img{
 
 /* responsive media query start */
 @media (max-width: 1104px) {
-    .about .about-content .left img{
+    /* .about .about-content .left img{
         width: 400px;
-    }
+    } */
 }
 
 @media (max-width: 991px) {
@@ -521,18 +520,24 @@ img.logo-img{
         font-size: 23px;
         line-height: 38px;
     }
+     .about .about-content .left img{
+        width: 100%;
+        height: 607.09px;
+    } 
     .about .about-content .left .img__container{
         width: 100%;
     }
-    .about .about-content .left .img__container:before{
-        height:320px;
-        width:320px;
-    }
+    .about .about-content .left .img__container::before{
+        width: 370px;
+        height: 370px;
+        left: 0;
+    }   
 }
 @media (max-width: 375px) {
-    .about .about-content .left img{
-        width: 100%;
-        height: auto;
-    }
-
+    .about .about-content .left .img__container::before{
+        width: 320px;
+        height: 320px;
+        top: 148px;
+        left: 0;
+    }   
 }
