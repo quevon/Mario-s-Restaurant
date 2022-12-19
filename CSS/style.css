@@ -290,8 +290,6 @@ img.logo-img{
 .about{
     display: flex;
     background: #fff5ea;
-    height: 100vh;
-    min-height: 500px;
     /* background-size: cover;
     background-attachment: fixed; */
     font-family: 'Merriweather', sans-serif;
@@ -315,8 +313,8 @@ img.logo-img{
     width: 50%;
 }
 .about .about-content .left img{
-    height: 400px;
-    width: 400px;
+    width: 432px;
+    height: 607.09px;
     object-fit: cover;
 
 }
@@ -360,6 +358,7 @@ img.logo-img{
 /* menu section styling*/
 .menu{
     background: #fff5ea;
+
 }
 .card__container{   
     display: flex;
@@ -423,8 +422,7 @@ img.logo-img{
 /* responsive media query start */
 @media (max-width: 1104px) {
     .about .about-content .left img{
-        height: 350px;
-        width: 350px;
+        width: 400px;
     }
 }
 
@@ -486,6 +484,7 @@ img.logo-img{
         justify-content: center;
         margin: 0 auto 60px;
     }
+
 }
 
 @media (max-width: 690px) {
@@ -504,5 +503,11 @@ img.logo-img{
         width: 35px;
         font-size: 23px;
         line-height: 38px;
+    }
+}
+@media (max-width: 375px) {
+    .about .about-content .left img{
+        width: 100%;
+        height: auto;
     }
 }
