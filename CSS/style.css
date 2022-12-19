@@ -249,8 +249,8 @@ img.logo-img{
     width: 45%;
 }
 .home .home-content .right img{
-    height: 400px;
-    width: 400px;
+    width: 432px;
+    height: 607.09px;
     object-fit: cover;
 }
 .home .home-content .right .text{
@@ -272,7 +272,7 @@ img.logo-img{
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
-    border-radius: 6px;
+    border-radius: 5px;
     border: 2px solid #2d854b;
     transition: all 0.3s ease;
     font-family: 'Raleway', sans-serif;
@@ -348,7 +348,7 @@ img.logo-img{
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
-    border-radius: 6px;
+    border-radius: 5px;
     border: 2px solid #2d854b;
     transition: all 0.3s ease;
     font-family: 'Raleway', sans-serif;
