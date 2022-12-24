@@ -278,6 +278,15 @@ img.logo-img{
     background-size: contain;
     background-position: center top;
 }
+.img_container_home{
+    display: flex;
+    flex-direction: column;
+    margin:100px 0;
+    text-align: center;
+}
+.img_container_home .home_img_container{
+    padding: 20px 0;
+}
 .home .home-content .right .text{
     font-size: 25px;
     font-weight: 600;
