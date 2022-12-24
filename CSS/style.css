@@ -504,8 +504,8 @@ img.logo-img{
     .home{
         display: flex;
         background: #fff5ea;
-        /* height: unset;
-        min-height: unset; */
+        height: unset;
+        /* min-height: unset;  */
     }
     .home .home-content .left {
         display: block;
