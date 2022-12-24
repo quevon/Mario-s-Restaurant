@@ -131,6 +131,7 @@ button:hover a:after {
     padding: 30px 0;
     transition: all 0.3s ease;
     font-family: 'Raleway', sans-serif;
+    background: transparent;
 }
 .navbar.sticky{
     padding: 15px 0;
@@ -139,7 +140,7 @@ button:hover a:after {
 .navbar .max-width{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: left;
 }
 img.logo-img{
     width: 150px;
@@ -213,6 +214,10 @@ img.logo-img{
     /* background-size: cover;
     background-attachment: fixed; */
 }
+.max-width-home{
+    width: 1300px;
+    margin: auto;
+}
 /* .home .home-content{
     opacity: 0;
     transform: scale(0.1);
@@ -224,6 +229,8 @@ img.logo-img{
 } */
 .home .home-content .left{
     width: 55%;
+    margin-top: 50px;
+    height: 100vh;
 }
 .home .home-content .left .text{
     color: #000;
@@ -236,32 +243,13 @@ img.logo-img{
 .home .home-content{
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-between;
 }
 .home .home-content .left .text{
     font-size: 50px;
     margin-bottom: 10px;
     color: #000;
-}
-.home .home-content .right{
-    width: 45%;
-}
-.home .home-content .right img{
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-}
-.home .home-content .right .text{
-    font-size: 25px;
-    font-weight: 600;
-    margin-bottom: 10px;
-    color: #000;
-    font-family: 'Merriweather', sans-serif;
-}
-.home .home-content .right p{
-    color: #000;
-    text-align: justify;
 }
 .home .home-content .left a{
     display: inline-block;
@@ -280,15 +268,34 @@ img.logo-img{
     background: #2d854b;
     color: #fff;
 }
-
-
+.home .home-content .right{
+    width: 45%;
+    height: 920px;
+    position: relative;
+    top: -93px;
+    background-image: url("/images/Rectangle\ 5.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center top;
+}
+.home .home-content .right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #000;
+    font-family: 'Merriweather', sans-serif;
+}
+.home .home-content .right p{
+    color: #000;
+    text-align: justify;
+}
 /* about section styling */
 /* .about .title::after{
     content: "about us";
 } */
 .about{
     display: flex;
-    /* background: #fff5ea; */
+    background: #fff5ea;
     /* background-size: cover;
     background-attachment: fixed; */
     font-family: 'Merriweather', sans-serif;
@@ -452,6 +459,11 @@ img.logo-img{
         display: block;
         z-index: 999;
     }
+    .navbar .max-width{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
     .menu-btn i.active:before{
         content: "\f00d";
     }
@@ -480,17 +492,26 @@ img.logo-img{
     .max-width{
         max-width: 930px;
     }
+    .home{
+        display: flex;
+        background: #fff5ea;
+        /* height: unset;
+        min-height: unset; */
+    }
     .home .home-content .left {
         display: block;
-    }
-    .home .home-content .right{
-        flex: 100%;
+        text-align: center; 
     }
     .home .home-content .column{
         width: 100%;
+        margin: auto;
+        height: fit-content;
     }
     .home .home-content .right{
         flex: 100%;
+        background-position: center;
+        background-size: cover;
+        top: 20px;
     }
     .about .about-content .column{
         width: 100%;
