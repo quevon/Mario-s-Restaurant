@@ -506,7 +506,7 @@ img.logo-img{
         background: #fff5ea;
         height: unset;
         /* min-height: unset;  */
-        padding: 100px 0 50px 0 !important;
+        padding: 100px 0 0 0 !important;
     }
     .home .home-content .left {
         display: block;
