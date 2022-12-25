@@ -514,7 +514,7 @@ img.logo-img{
     .home .home-content .left {
         display: block;
         text-align: center; 
-        padding: 100px 0;
+        padding: 100px 50px;
     }
     .home .home-content .column{
         width: 100%;
