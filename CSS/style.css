@@ -273,7 +273,7 @@ img.logo-img{
     height: 920px;
     position: relative;
     top: -93px;
-    background-image: url("/images/Rectangle\ 5.png");
+    background-image: url("/images/Rectangle\ 6.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center top;
@@ -462,6 +462,9 @@ img.logo-img{
     .max-width{
         padding: 0 50px;
     }
+    .home .max-width{
+        padding: 0 !important;
+    }
 }
 @media (max-width: 947px){
     .menu-btn{
@@ -511,6 +514,7 @@ img.logo-img{
     .home .home-content .left {
         display: block;
         text-align: center; 
+        padding: 100px 0;
     }
     .home .home-content .column{
         width: 100%;
@@ -519,6 +523,7 @@ img.logo-img{
     }
     .home .home-content .right{
         flex: 100%;
+        background-image: url("/images/Rectangle\ 5.png");
         background-position: center;
         background-size: cover;
         top: 20px;
