@@ -462,15 +462,15 @@ img.logo-img {
   font-size: 1.5rem;
   color: #fff;
   margin: 0.3rem;
-  border-radius: 50%;
-  border: 1px solid #fff;
+  /* border-radius: 50%;
+  border: 1px solid #fff; */
   justify-content: center;
   align-items: center;
 }
 
 .footer_column .share a:hover {
-  background-color: #2d854b;
-  transform: translateY(-10px);
+  color: #2d854b;
+  /* transform: translateY(-10px); */
 }
 .footer .credit {
   font-size: 1.5rem;
@@ -490,6 +490,9 @@ img.logo-img {
 .footer_info li a {
   color: #fff;
   font-family: "Raleway";
+}
+.footer_info li a:hover {
+  color: #2d854b;
 }
 /* responsive media query start */
 @media (max-width: 1104px) {
