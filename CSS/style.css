@@ -416,6 +416,9 @@ img.logo-img {
   border-top: 1px solid #000;
   text-transform: capitalize;
   padding: 2rem 9%;
+  background-image: url("/images/pngwing\ 18.png");
+  background-color: #000;
+  background-repeat: no-repeat;
 }
 .footer .share {
   display: flex;
@@ -429,10 +432,10 @@ img.logo-img {
   width: 3rem;
   line-height: 4rem;
   font-size: 1.5rem;
-  color: #000;
+  color: #fff;
   margin: 0.3rem;
   border-radius: 50%;
-  border: 1px solid #000;
+  border: 1px solid #fff;
   justify-content: center;
   align-items: center;
 }
@@ -441,14 +444,14 @@ img.logo-img {
   background-color: #2d854b;
   transform: translateY(-10px);
 }
-.footer .c#E94B3CFFit {
+.footer .credit {
   font-size: 1.5rem;
-  color: #000;
+  color: #fff;
   font-weight: lighter;
   padding: 0.5rem;
 }
-.footer .c#E94B3CFFit span {
-  color: #e94b3cff;
+.footer .credit span {
+  color: #fff;
 }
 
 /* responsive media query start */
