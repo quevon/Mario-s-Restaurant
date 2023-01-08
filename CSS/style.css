@@ -77,53 +77,7 @@ section .title::after {
   background: #fff;
   transform: translateX(-50%);
 }
-/* .button-container {
-  display: flex;
-  white-space: nowrap;
-}
-button {
-  display: inline-block;
-  border-radius: 4px;
-  background-color: #ffffff;
-  border: none;
-  color: #3d405b;
-  text-align: center;
-  font-size: 17px;
-  padding: 14px;
-  width: 130px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
-  box-shadow: 0 0 0.5em 0 var(--clr-neon), 0 0 0.5em var(--clr-neon);
-} */
-/* button:hover {
-  background: #e94b3cff;
-}
-button a {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-  font-weight: 500;
-} */
-/* button a:hover {
-  color: #ffffff;
-}
-button a:after {
-  content: "»";
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -15px;
-  transition: 0.5s;
-}
-button:hover a {
-  padding-right: 15px;
-}
-button:hover a:after {
-  opacity: 1;
-  right: 0;
-} */
+
 /* navbar styling */
 .navbar {
   position: fixed;
@@ -230,8 +184,7 @@ img.logo-img {
 } */
 .home .home-content .left {
   width: 55%;
-  margin-top: 50px;
-  height: 100vh;
+  margin-top: 26vh;
 }
 .home .home-content .left .text {
   color: #000;
@@ -276,13 +229,15 @@ img.logo-img {
   top: -93px;
   background-image: url("/images/Rectangle\ 6.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100% 100%;
   background-position: center top;
 }
 .img_container_home {
   display: flex;
   flex-direction: column;
-  margin: 100px 0;
+  justify-content: center;
+  align-items: center;
+  margin: 50%;
   text-align: center;
 }
 .img_container_home .home_img_container {
@@ -302,7 +257,7 @@ img.logo-img {
 /* about section styling */
 /* .about .title::after{
     content: "about us";
-} */
+/* } */
 .about {
   display: flex;
   background: #fff5ea;
@@ -400,19 +355,42 @@ img.logo-img {
   gap: 15px;
 }
 .card {
+  position: relative;
   margin: auto;
   width: 300px;
-  height: 611px;
+  height: 415px;
   background: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
   text-align: center;
+}
+.card__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.img_container img {
+  width: 216px;
+  height: auto;
+  position: relative;
+}
+.img_container img:hover {
+  bottom: 10px;
 }
 .menus__title {
   font-size: 24px;
 }
 .menus__title a {
   color: #000;
+  font-family: "Merriweather";
+}
+.menus__content {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  padding: 10px 0;
 }
 .menus_btn a {
   display: inline-block;
