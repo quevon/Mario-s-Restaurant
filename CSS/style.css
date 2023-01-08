@@ -258,6 +258,13 @@ img.logo-img {
 /* .about .title::after{
     content: "about us";
 /* } */
+.about .title {
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #000;
+  font-family: "Merriweather", sans-serif;
+}
 .about {
   display: flex;
   background: #fff5ea;
@@ -347,7 +354,13 @@ img.logo-img {
 .menus {
   background: #fff5ea;
 }
-
+.menus .title {
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #000;
+  font-family: "Merriweather", sans-serif;
+}
 .card__container {
   display: flex;
   flex-wrap: wrap;
@@ -412,18 +425,33 @@ img.logo-img {
 /* footer section styling */
 
 .footer {
-  text-align: center;
   border-top: 1px solid #000;
   text-transform: capitalize;
-  padding: 2rem 9%;
+  padding: 5rem 2rem;
   background-image: url("/images/pngwing\ 18.png");
   background-color: #000;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
+  color: #fff;
+}
+.footer__content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.footer_column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer_logo_container {
+  text-align: center;
+}
+.footer__title_address {
+  color: #fff;
+  font-family: "Merriweather";
+  padding: 10px 0;
 }
 .footer .share {
   display: flex;
-  flex-direction: row;
-  padding: 1rem 0;
   justify-content: center;
 }
 .footer .share a {
@@ -440,7 +468,7 @@ img.logo-img {
   align-items: center;
 }
 
-.footer .share a:hover {
+.footer_column .share a:hover {
   background-color: #2d854b;
   transform: translateY(-10px);
 }
@@ -449,11 +477,20 @@ img.logo-img {
   color: #fff;
   font-weight: lighter;
   padding: 0.5rem;
+  text-align: center;
 }
 .footer .credit span {
   color: #fff;
 }
-
+.footer_info li {
+  font-family: "Raleway";
+  letter-spacing: 0.1em;
+  line-height: 18px;
+}
+.footer_info li a {
+  color: #fff;
+  font-family: "Raleway";
+}
 /* responsive media query start */
 @media (max-width: 1104px) {
   /* .about .about-content .left img{
@@ -540,7 +577,15 @@ img.logo-img {
     margin: 0 auto 60px;
   }
 }
-
+@media (max-width: 767px) {
+  .footer__content {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .footer__title_address {
+    text-align: center;
+  }
+}
 @media (max-width: 690px) {
   .max-width {
     padding: 0 23px;
