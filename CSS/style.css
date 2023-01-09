@@ -100,6 +100,10 @@ section .title::after {
 img.logo-img {
   width: 150px;
 }
+.navbar .header__max-width {
+  position: relative;
+}
+
 .navbar .menu li {
   list-style: none;
   display: inline-block;
@@ -500,15 +504,71 @@ img.logo-img {
         width: 400px;
     } */
 }
-
-@media (max-width: 991px) {
-  .max-width {
-    padding: 0 50px;
-  }
-  .home .max-width {
-    padding: 0 !important;
+@media (min-width: 1200px) {
+  /* .about .about-content .left img{
+        width: 400px;
+    } */
+  .navbar .header__max-width .nav__header {
+    position: absolute;
+    right: 154px;
   }
 }
+@media (max-width: 1200px) and (min-width: 947px) {
+  .navbar .header__max-width .nav__header {
+    position: absolute;
+    right: 103px;
+  }
+}
+@media (min-width: 947px) {
+  /* .about .about-content .left img{
+        width: 400px;
+    } */
+  .navbar .header__max-width .nav__header li .menu-btn1 {
+    background: #fff;
+    color: #2d854b;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: 2px solid #2d854b;
+    transition: all 0.3s ease;
+    font-family: "Raleway", sans-serif;
+  }
+  .navbar .header__max-width .nav__header li .menu-btn1:hover {
+    background: #2d854b;
+    color: #fff;
+  }
+  .navbar.sticky .header__max-width .nav__header li .menu-btn1:hover {
+    background: #2d854b;
+    color: #fff;
+    border-radius: 5px;
+    border: 2px solid #2d854b;
+    padding: 10px 30px;
+  }
+  .navbar .header__max-width .nav__header li .menu-btn2 {
+    background: #2d854b;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: 2px solid #2d854b;
+    transition: all 0.3s ease;
+    font-family: "Raleway", sans-serif;
+  }
+  .navbar .header__max-width .nav__header li .menu-btn2:hover {
+    background: #fff;
+    color: #2d854b;
+  }
+  .navbar.sticky .header__max-width .nav__header li .menu-btn2:hover {
+    background: #fff;
+    color: #2d854b;
+    border: 2px solid #2d854b;
+    padding: 10px 30px;
+    border-radius: 5px;
+  }
+}
+
 @media (max-width: 947px) {
   .menu-btn {
     display: block;
@@ -578,6 +638,12 @@ img.logo-img {
     display: flex;
     justify-content: center;
     margin: 0 auto 60px;
+  }
+  .max-width {
+    padding: 0 50px;
+  }
+  .home .max-width {
+    padding: 0 !important;
   }
 }
 @media (max-width: 767px) {
