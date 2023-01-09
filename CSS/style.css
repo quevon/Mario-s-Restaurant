@@ -543,7 +543,7 @@ img.logo-img {
     color: #fff;
     border-radius: 5px;
     border: 2px solid #2d854b;
-    padding: 10px 30px;
+    padding: 10px 25px;
   }
   .navbar .header__max-width .nav__header li .menu-btn2 {
     background: #2d854b;
@@ -564,7 +564,7 @@ img.logo-img {
     background: #fff;
     color: #2d854b;
     border: 2px solid #2d854b;
-    padding: 10px 30px;
+    padding: 10px 25px;
     border-radius: 5px;
   }
 }
