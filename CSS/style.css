@@ -43,7 +43,7 @@ section {
   margin: auto;
 }
 .about,
-.projects,
+.rooms,
 .footer {
   font-family: "Raleway", sans-serif;
 }
@@ -113,7 +113,7 @@ img.logo-img {
   color: #2d854b;
   font-size: 18px;
   font-weight: 500;
-  margin-left: 25px;
+  margin-left: 15px;
   padding: 10px;
 }
 .navbar .menu li a:hover {
@@ -517,8 +517,8 @@ img.logo-img {
 }
 .contact .contact-content a {
   display: inline-block;
-  background: #2d854b;
-  color: #fff;
+  background: #fff;
+  color: #2d854b;
   font-size: 20px;
   font-weight: 500;
   padding: 10px 30px;
@@ -527,11 +527,76 @@ img.logo-img {
   border: 2px solid #2d854b;
   transition: all 0.3s ease;
   font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
 }
 .contact .contact-content a:hover {
-  color: #2d854b;
-  background: none;
+  color: #fff;
+  background: #2d854b;
 }
+/* rooms styling section */
+
+.rooms {
+  background: #fff5ea;
+}
+
+.rooms .title {
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #000;
+  font-family: "Merriweather", sans-serif;
+}
+.rooms .title_address {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 0.1em;
+  padding-bottom: 20px;
+}
+.rooms .rooms-content p {
+  text-align: justify;
+  color: #000;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  padding-bottom: 20px;
+}
+.rooms .carousel .card_rooms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rooms .carousel .card_rooms img {
+  width: 312px;
+  height: 375px;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+}
+.rooms .carousel .card_rooms:hover img {
+  border-color: #fff;
+}
+.owl-dots {
+  text-align: center;
+  margin-top: 20px;
+}
+.owl-dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 5px;
+  outline: none !important;
+  border-radius: 50%;
+  border: 2px solid #2d854b !important;
+  transition: all 0.3s ease;
+}
+.owl-dot.active {
+  width: 35px;
+  border-radius: 14px;
+}
+.owl-dot.active,
+.owl-dot:hover {
+  background: #2d854b !important;
+}
+
 /* footer section styling */
 
 .footer {
