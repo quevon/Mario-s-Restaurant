@@ -427,6 +427,69 @@ img.logo-img {
   color: #2d854b;
   background: none;
 }
+/* caterworks section styling */
+
+.caterworks .title {
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #000;
+  font-family: "Merriweather", sans-serif;
+}
+.caterworks {
+  display: flex;
+  background: #fff5ea;
+  /* background-size: cover;
+    background-attachment: fixed; */
+  font-family: "Merriweather", sans-serif;
+}
+.caterworks .caterworks-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.caterworks .caterworks-content .left {
+  width: 50%;
+}
+.caterworks .caterworks-content .left img {
+  width: 200px;
+  height: auto;
+  padding-bottom: 20px;
+}
+.caterworks .caterworks-content .left .img__container {
+  position: relative;
+  width: 432px;
+}
+
+.caterworks .caterworks-content .right {
+  width: 50%;
+}
+
+.caterworks .caterworks-content .left p {
+  text-align: justify;
+  color: #000;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+}
+.caterworks .caterworks-content .left a {
+  display: inline-block;
+  background: #2d854b;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 30px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 2px solid #2d854b;
+  transition: all 0.3s ease;
+  font-family: "Raleway", sans-serif;
+}
+.caterworks .caterworks-content .left a:hover {
+  color: #2d854b;
+  background: none;
+}
+
 /* footer section styling */
 
 .footer {
