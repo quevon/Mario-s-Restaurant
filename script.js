@@ -1,3 +1,5 @@
+import { scroll } from "./javascript/scroll.js";
+scroll();
 $(document).ready(function () {
   $(window).scroll(function () {
     // sticky navbar on scroll script
