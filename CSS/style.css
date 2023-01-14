@@ -53,7 +53,7 @@ section .title {
   text-align: center;
   font-size: 40px;
   font-weight: 500;
-  margin-bottom: 60px;
+  margin-bottom: 70px;
   padding-bottom: 20px;
   font-family: "Merriweather", sans-serif;
 }
@@ -427,52 +427,52 @@ img.logo-img {
   color: #2d854b;
   background: none;
 }
-/* caterworks section styling */
+/* events section styling */
 
-.caterworks .title {
+.events .title {
   font-size: 50px;
   font-weight: 600;
   margin-bottom: 10px;
   color: #000;
   font-family: "Merriweather", sans-serif;
 }
-.caterworks {
+.events {
   display: flex;
   background: #fff5ea;
   /* background-size: cover;
     background-attachment: fixed; */
   font-family: "Merriweather", sans-serif;
 }
-.caterworks .caterworks-content {
+.events .events-content {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
 }
-.caterworks .caterworks-content .left {
+.events .events-content .left {
   width: 50%;
 }
-.caterworks .caterworks-content .left img {
+.events .events-content .left img {
   width: 200px;
   height: auto;
   padding-bottom: 20px;
 }
-.caterworks .caterworks-content .left .img__container {
+.events .events-content .left .img__container {
   position: relative;
   width: 432px;
 }
 
-.caterworks .caterworks-content .right {
+.events .events-content .right {
   width: 50%;
 }
 
-.caterworks .caterworks-content .left p {
+.events .events-content .left p {
   text-align: justify;
   color: #000;
   font-size: 20px;
   font-family: "Raleway", sans-serif;
 }
-.caterworks .caterworks-content .left a {
+.events .events-content .left a {
   display: inline-block;
   background: #2d854b;
   color: #fff;
@@ -485,11 +485,13 @@ img.logo-img {
   transition: all 0.3s ease;
   font-family: "Raleway", sans-serif;
 }
-.caterworks .caterworks-content .left a:hover {
+.events .events-content .left a:hover {
   color: #2d854b;
   background: none;
 }
-
+.events_img_container2 {
+  text-align: center;
+}
 /* footer section styling */
 
 .footer {
@@ -647,6 +649,12 @@ img.logo-img {
     justify-content: center;
     margin: 0 auto 60px;
   }
+  .events .events-content .column {
+    width: 100%;
+  }
+  .events .events-content .column left p {
+    display: block;
+  }
 }
 @media (max-width: 947px) {
   .menu-btn {
@@ -765,6 +773,10 @@ img.logo-img {
   .about .about-content .left .img__container::before {
     top: 127px;
     left: 25px;
+  }
+  .events .events-content .right img {
+    width: 100%;
+    height: auto;
   }
 }
 @media (max-width: 425px) {
