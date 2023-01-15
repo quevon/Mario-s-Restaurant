@@ -1,4 +1,14 @@
 export const scroll = () => {
+  const homeContent1 = document.querySelector(".home-content");
+  const homeContentPosition1 = homeContent1.getBoundingClientRect().top;
+  const homePosition1 = window.innerHeight / 1;
+  window.onload = () => {
+    if (homeContentPosition1 < homePosition1) {
+      homeContent1.classList.add("active-home");
+    } else {
+      homeContent1.classList.remove("active-home");
+    }
+  };
   window.addEventListener("scroll", () => {
     const homeContent = document.querySelector(".home-content");
     const abountContent = document.querySelector(".about-content");
