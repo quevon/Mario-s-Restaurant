@@ -172,7 +172,7 @@ img.logo-img {
 .home .home-content {
   opacity: 0;
   transform: scale(0.1);
-  transition: all 1s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .home .home-content.active-home {
   opacity: 1;
@@ -290,7 +290,7 @@ img.logo-img {
 .about .about-content {
   opacity: 0;
   transform: scale(0.1);
-  transition: all 1s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .about .about-content.active {
   opacity: 1;
@@ -363,7 +363,7 @@ img.logo-img {
 .menus .menu-content {
   opacity: 0;
   transform: scale(0.1);
-  transition: all 1s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .menus .menu-content.active-menus {
   opacity: 1;
@@ -444,7 +444,7 @@ img.logo-img {
 .events .events-content {
   opacity: 0;
   transform: scale(0.1);
-  transition: all 1s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .events .events-content.active-events {
   opacity: 1;
@@ -518,7 +518,7 @@ img.logo-img {
 .contact .contact-content {
   opacity: 0;
   transform: scale(0.1);
-  transition: all 1s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .contact .contact-content.contact-events {
   opacity: 1;
@@ -567,7 +567,7 @@ img.logo-img {
 .rooms .rooms-content {
   opacity: 0;
   transform: scale(0.1);
-  transition: all 1s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .rooms .rooms-content.rooms-events {
   opacity: 1;
