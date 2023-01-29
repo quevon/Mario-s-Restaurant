@@ -634,7 +634,32 @@ img.logo-img {
 .owl-dot:hover {
   background: #2d854b !important;
 }
+/* testimonials */
+.testimonial {
+  background: #7d501c;
+}
+.testimonial .title {
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #fff;
+  font-family: "Merriweather", sans-serif;
+}
 
+.testimonial .testimonial-content p {
+  text-align: justify;
+  color: #fff;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  padding-bottom: 20px;
+}
+.testimonial .testimonial-name {
+  font-size: 22px;
+  text-align: center;
+  color: #fff;
+  font-family: "Merriweather", sans-serif;
+  padding-bottom: 20px;
+}
 /* footer section styling */
 
 .footer {
@@ -920,6 +945,12 @@ img.logo-img {
   .events .events-content .right img {
     width: 100%;
     height: auto;
+  }
+  .testimonial .testimonial-content p {
+    text-align: center;
+  }
+  .title {
+    font-size: 40px !important;
   }
 }
 @media (max-width: 425px) {
