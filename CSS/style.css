@@ -670,6 +670,15 @@ img.logo-img {
   padding-bottom: 20px;
 }
 /* blogs section  */
+.blogs .blogs-content {
+  opacity: 0;
+  transform: scale(0.1);
+  transition: all 0.5s ease-in-out;
+}
+.blogs .blogs-content.blogs-events {
+  opacity: 1;
+  transform: scale(1);
+}
 .blogs .title {
   font-size: 50px;
   font-weight: 600;
