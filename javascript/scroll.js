@@ -16,6 +16,8 @@ export const scroll = () => {
     const events = document.querySelector(".events-content");
     const contact = document.querySelector(".contact-content");
     const rooms = document.querySelector(".rooms-content");
+    const testimonial = document.querySelector(".testimonial-content");
+    // const blogs = document.querySelector(".blogs-content");
 
     const homeContentPosition = homeContent.getBoundingClientRect().top;
     const homePosition = window.innerHeight / 1;
@@ -34,6 +36,12 @@ export const scroll = () => {
 
     const roomsContentPosition = rooms.getBoundingClientRect().top;
     const roomsPosition = window.innerHeight / 1;
+
+    const testimonialContentPosition = testimonial.getBoundingClientRect().top;
+    const testimonialPosition = window.innerHeight / 1;
+
+    // const blogsContentPosition = blogs.getBoundingClientRect().top;
+    // const blogsPosition = window.innerHeight / 1;
 
     if (homeContentPosition < homePosition) {
       homeContent.classList.add("active-home");
@@ -79,6 +87,17 @@ export const scroll = () => {
       contact.classList.remove("contact-events");
     } else {
       rooms.classList.remove("rooms-events");
+    }
+    if (testimonialContentPosition < testimonialPosition) {
+      testimonial.classList.add("testimonial-events");
+      menus.classList.remove("active-menus");
+      homeContent.classList.remove("active-home");
+      abountContent.classList.remove("active");
+      events.classList.remove("active-events");
+      contact.classList.remove("contact-events");
+      rooms.classList.remove("rooms-events");
+    } else {
+      testimonial.classList.remove("testimonial-events");
     }
   });
 };

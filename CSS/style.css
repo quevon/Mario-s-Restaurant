@@ -635,6 +635,15 @@ img.logo-img {
   background: #2d854b !important;
 }
 /* testimonials */
+.testimonial .testimonial-content {
+  opacity: 0;
+  transform: scale(0.1);
+  transition: all 0.5s ease-in-out;
+}
+.testimonial .testimonial-content.testimonial-events {
+  opacity: 1;
+  transform: scale(1);
+}
 .testimonial {
   background: #7d501c;
 }
