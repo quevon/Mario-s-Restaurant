@@ -660,6 +660,32 @@ img.logo-img {
   font-family: "Merriweather", sans-serif;
   padding-bottom: 20px;
 }
+/* blogs section  */
+.blogs .title {
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #000;
+  font-family: "Merriweather", sans-serif;
+}
+.blogs .carousel3 .card_rooms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+.blogs .carousel3 .card_rooms .box {
+  width: 312px;
+  height: 375px;
+  transition: all 0.3s ease;
+  background: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+}
+.blogs .owl-carousel .owl-item img {
+  margin: 50px auto !important;
+  width: 220px !important;
+}
 /* footer section styling */
 
 .footer {
